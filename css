@@ -41,3 +41,9 @@ button:hover {
 .hidden {
   display: none;
 }
+
+#feedback {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
