@@ -1,7 +1,10 @@
+// Show/hide quiz when button is clicked
 document.getElementById("quiz-btn").addEventListener("click", () => {
-  document.getElementById("quiz").classList.toggle("hidden");
+  const quiz = document.getElementById("quiz-container");
+  quiz.classList.toggle("hidden");
 });
 
+// Handle quiz answers
 const answers = document.querySelectorAll(".answer");
 const feedback = document.getElementById("feedback");
 
