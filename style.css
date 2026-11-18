@@ -21,12 +21,12 @@ section {
 }
 
 h2 {
-  color: #0078d7;
+  color: #BE185D;
 }
 
 button {
   margin-top: 10px;
-  background-color: #0078d7;
+  background-color: #F9A8D4;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-  background-color: #005ea3;
+  background-color: #F9A8D4;
 }
 
 .hidden {
