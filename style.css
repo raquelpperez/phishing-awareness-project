@@ -62,3 +62,22 @@ button:hover {
   color: #AD456F;
 }
 
+.password-checklist {
+  margin-top: 15px;
+}
+
+.password-checklist label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.password-checklist input {
+  width: 18px;
+  height: 18px;
+  accent-color: #AD456F;
+  cursor: pointer;
+}
+
