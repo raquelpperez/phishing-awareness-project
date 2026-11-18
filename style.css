@@ -1,5 +1,6 @@
 
 
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #FAF8F9;
@@ -49,4 +50,15 @@ button:hover {
   margin-top: 10px;
 }
 
+#did-you-know {
+  background-color: #F7E7EF;
+  border: 1px solid #DCA8C0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+#did-you-know h2 {
+  color: #AD456F;
+}
 
