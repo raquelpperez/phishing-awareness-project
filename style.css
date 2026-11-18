@@ -1,4 +1,5 @@
 
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #FAF8F9;
@@ -22,13 +23,13 @@ section {
 }
 
 h2 {
-  color: #C4789B;
+  color: #AD456F;
 }
 
 button {
   margin-top: 10px;
-  background-color: #D78CAC;
-  color: #171717;
+  background-color: #AD456F;
+  color: #FFFFFF;
   border: none;
   padding: 10px 15px;
   border-radius: 6px;
@@ -36,7 +37,7 @@ button {
 }
 
 button:hover {
-  background-color: #C4789B;
+  background-color: #922F58;
 }
 
 .hidden {
@@ -47,4 +48,5 @@ button:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+
 
