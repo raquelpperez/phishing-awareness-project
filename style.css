@@ -1,48 +1,114 @@
+
+/* Overall Website */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+  background-color: #FFF7FA;
+  color: #171717;
+  line-height: 1.7;
   margin: 0;
   padding: 0;
 }
 
-header, footer {
-  background-color: #FCE7F3;
-  color: #000000;
+/* Header */
+header {
+  background-color: #D98EAD;
+  color: #171717;
   text-align: center;
-  padding: 1rem 0;
+  padding: 35px 20px;
 }
 
+header h1 {
+  color: #171717;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #171717;
+  font-size: 1.1rem;
+}
+
+/* Main Sections */
 section {
-  padding: 20px;
+  background-color: #F5D5E2;
+  padding: 30px;
   max-width: 800px;
-  margin: auto;
+  margin: 35px auto;
+  border-radius: 14px;
+  border: 1px solid #E8B8CC;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+/* Section Headings */
 h2 {
-  color: #BE185D;
+  color: #171717;
+  font-size: 1.6rem;
+  margin-top: 0;
 }
 
+/* Paragraphs and Lists */
+p, li {
+  color: #171717;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Buttons */
 button {
-  margin-top: 10px;
-  background-color: #BE185D;
-  color: #000000;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 6px;
+  margin-top: 15px;
+  background-color: #C75B89;
+  color: #171717;
+  border: 1px solid #A94370;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
+  transition: background-color 0.2s ease,
+              transform 0.2s ease;
 }
 
+/* Button Hover Effect */
 button:hover {
-  background-color: #BE185D;
+  background-color: #E38BAD;
+  transform: translateY(-2px);
 }
 
+/* Hidden Quiz Elements */
 .hidden {
   display: none;
 }
 
+/* Quiz Feedback */
 #feedback {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 15px;
+  color: #171717;
+}
+
+/* Footer */
+footer {
+  background-color: #D98EAD;
+  color: #171717;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #171717;
+}
+
+/* Mobile Friendly */
+@media (max-width: 850px) {
+  section {
+    margin: 20px 15px;
+    padding: 22px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
 }
